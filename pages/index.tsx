@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>CLUBBIN' SOUL</title>
+        <title>CLUBBIN&apos; SOUL</title>
         <meta name="description" content="House Dance for the Culture" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -28,9 +28,9 @@ const Home: NextPage = () => {
       <main>
         <div id="home" className={styles.home}>
           <div className={styles.landing}>
-            <Image src={landing} layout="fill" />
+            <Image src={landing} layout="fill" alt="Landing Page" />
           </div>
-          <h1 className={styles.title}>CLUBBIN' SOUL</h1>
+          <h1 className={styles.title}>CLUBBIN&apos; SOUL</h1>
         </div>
         <div id="event"></div>
         <div id="location"></div>
